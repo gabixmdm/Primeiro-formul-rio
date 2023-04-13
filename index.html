@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's play!</title>
+</head>
+<body>
+
+<div>
+    <h1>Formulário para workshop de Fortnite</h1>
+    <p>Complete suas informações e ganhe o nº1 Victory Royale:</p>
+    <br>
+</div>
+
+<form>
+    <fieldset>
+        <div>
+            <label>Nome</label>
+            <input type="text" name="nome" id="nome">
+        </div>
+
+        <div>
+            <label>Sobrenome</label>
+            <input type="text" name="sobrenome" id="sobrenome">
+        </div>
+    </fieldset>
+
+    <div>
+        <label>E-mail</label>
+        <input type="text" name="e-mail" id="e-mail">
+     </div>
+
+     <div>
+        <label>Idade</label>
+        <input type="number" name="idade" id="idade" min="1" max="100">
+     </div>
+
+     <div> 
+        <label>Qual seu nível de Fortnite?</label>
+        <label>
+            <input type="radio" name="nível fortnite" value="básico">Básico
+        </label>
+
+        <label>
+            <input type="radio" name="nível fortnite" value="intermediário">Intermediário
+        </label>
+
+        <label>
+            <input type="radio" name="nível fortnite" value="avançado">Avançado
+        </label>
+
+     </div>
+
+     <div>
+        <label>Qual gesto você realizaria ao vencer um Battle Royale?</label>
+        <select id="qual seu gesto favorito">
+        <option selected disabled value="">Selecione</option>
+        <option>Passada Peixosa</option>
+        <option>Mete Bala, Beast</option>
+        <option>Jiggle Jiggle</option>
+        </select>
+    </div>
+
+        <fieldset>
+            <div>Quais seus lugares favoritos do mapa?</div><br>
+            <input type="checkbox" id="granja gaiata" name="granja gaiata" value="granja gaiata">
+            <label for="granja gaiata">Granja Gaiata</label>
+            <input type="checkbox" id="megacidade" name="megacidade" value="megacidade">
+            <label for="megacidade">Megacidade</label>
+            <input type="checkbox" id="praça da bigorna" name="praça da bigorna" value="praça da bigorna">
+            <label for="praça da bigorna">Praça da Bigorna</label>
+            <input type="checkbox" id="rochedo rachado" name="rochedo rachado" value="rochedo rachado">
+            <label for="rochedo rachado">Rochedo Rachado</label>
+            <input type="checkbox" id="costa indisposta" name="costa indisposta" value="costa indisposta">
+            <label for="costa indisposta">Costa Indisposta</label>
+        </fieldset>
+
+        <div>
+            <br>
+            <label>Por que você quer se tornar um Pro Fortnite Gamer?</label>
+            <textarea row="6" style="width: 26em" id="mensagem" name="mensagem"></textarea>
+        </div>
+
+        <button type="submit">Estou pronto para vencer</button>
+
+</form>
+
+</body>
+</html>
