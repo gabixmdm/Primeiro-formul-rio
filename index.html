@@ -16,7 +16,7 @@
     <br>
 </div>
 
-<form>
+<form id="form">
     <fieldset class="grupo">
         <div class="campo">
             <label for="nome"><strong>Nome</strong></label>
@@ -30,13 +30,13 @@
     </fieldset>
 
     <div class="campo">
-        <label for="e-mail"><strong>E-mail</strong></label>
-        <input type="text" name="e-mail" id="e-mail" required>
+        <label for="email"><strong>E-mail</strong></label>
+        <input type="text" name="email" id="email" required>
      </div>
 
      <div class="campo">
         <label for="idade"><strong>Idade</strong></label>
-        <input type="number" name="idade" id="idade" min="1" max="100">
+        <input type="number" name="idade" id="idade" min="1" max="100" required>
      </div>
 
      <div class="campo"> 
@@ -57,7 +57,7 @@
 
      <div class="campo">
         <label for="qual seu gesto favorito"><strong>Qual gesto você realizaria ao vencer um Battle Royale?</strong></label>
-        <select id="qual seu gesto favorito">
+        <select id="gesto">
         <option selected disabled value="">Selecione</option>
         <option>Passada Peixosa</option>
         <option>Mete Bala, Beast</option>
@@ -89,6 +89,6 @@
         <button class="botao" type="submit">Estou pronto para vencer</button>
 
 </form>
-
+<script type="text/javascript" src="script.js"></script>
 </body>
 </html>
